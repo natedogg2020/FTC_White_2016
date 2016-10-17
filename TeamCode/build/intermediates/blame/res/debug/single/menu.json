@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
+        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3 copy/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/res/merged/debug/menu/menu_server.xml",
+        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/res/merged/debug/menu/main_menu.xml",
+        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Inspection-release/res/menu/main_menu.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/res/merged/debug/menu/menu_server.xml",
+        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Blocks-release/res/menu/menu_server.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/res/merged/debug/menu/ftc_robot_controller.xml",
+        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3/FtcRobotController/unspecified/res/menu/ftc_robot_controller.xml"
+    }
+]
