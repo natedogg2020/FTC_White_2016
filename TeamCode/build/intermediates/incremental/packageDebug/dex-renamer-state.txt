@@ -1,7 +1,4 @@
-#Mon Oct 17 16:05:04 CDT 2016
-base.0=/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7b4cb328144c83d67c9a1a367ce4dff7d634d51c
-renamed.1=classes2.dex
+#Tue Oct 18 17:02:41 CDT 2016
+base.0=/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f11eb34d873229b12480969e82faf5ceafdac970/classes.dex
-base.1=/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f11eb34d873229b12480969e82faf5ceafdac970
-file.0=/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7b4cb328144c83d67c9a1a367ce4dff7d634d51c/classes.dex
+file.0=/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

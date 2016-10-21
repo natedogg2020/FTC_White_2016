@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
+        "outputFile": "/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
         "map": [
             {
                 "to": {
@@ -12,33 +12,7 @@
                     "endOffset": 201
                 },
                 "from": {
-                    "file": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3/FtcRobotController/unspecified/res/values-v14/values-v14.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endLine": 4,
-                        "endColumn": 12,
-                        "endOffset": 201
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v14/values-v14.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endLine": 4,
-                    "endColumn": 12,
-                    "endOffset": 201
-                },
-                "from": {
-                    "file": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3 copy/FtcRobotController/unspecified/res/values-v14/values-v14.xml",
+                    "file": "/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FTC_White_2016/FtcRobotController/unspecified/res/values-v14/values-v14.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

@@ -1,10 +1,6 @@
 [
     {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3/FtcRobotController/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/ftc_app-master 3 copy/FtcRobotController/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
+        "merged": "/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_launcher.png",
+        "source": "/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FTC_White_2016/FtcRobotController/unspecified/res/drawable-mdpi-v4/ic_launcher.png"
     }
 ]

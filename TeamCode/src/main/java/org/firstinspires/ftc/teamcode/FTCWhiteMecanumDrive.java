@@ -68,16 +68,29 @@ public class FTCWhiteMecanumDrive extends OpMode {
         double ch2;
         double ch3;
         double ch4;
-
-        // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
-        ch1 = -gamepad1.right_stick_x;
-        ch2 = gamepad1.right_stick_y;
+        //Ch1 = Right joystick X-axis
+        //Ch2 = Right joystick y- axis(unused)
+        //Ch3 = Left joystick Y-axis
+        //Ch4 = Left joystick X-axis
+        ch1 = gamepad1.right_stick_x;
+        ch2 = -gamepad1.right_stick_y;
         ch3 = -gamepad1.left_stick_y;
         ch4 = -gamepad1.left_stick_x;
         robot.frontLeftMotor.setPower(ch3 + ch1 + ch4);
         robot.rearLeftMotor.setPower(ch3 + ch1 - ch4);
-        robot.frontRightMotor.setPower(ch3 - ch1 - ch4);
-        robot.rearRightMotor.setPower(ch3 - ch1 + ch4);
+        robot.rearRightMotor.setPower(ch3 - ch1 - ch4);
+        robot.frontRightMotor.setPower(ch3 - ch1 + ch4);
+
+       /* ch1 = gamepad1.right_stick_x;
+        ch2 = -gamepad1.right_stick_y;
+        ch3 = -gamepad1.left_stick_y;
+        ch4 = gamepad1.left_stick_x;
+        robot.frontLeftMotor.setPower(ch4);
+        robot.rearLeftMotor.setPower(ch4);
+        robot.frontRightMotor.setPower(ch4);
+        robot.rearRightMotor.setPower(ch4);
+        telemetry.addData("ch4value", ch4);
+        */
 
         /*
         Old Code -- Need to hang on to just in case ;)
