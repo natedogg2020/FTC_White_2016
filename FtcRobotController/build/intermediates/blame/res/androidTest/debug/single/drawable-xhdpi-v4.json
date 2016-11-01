@@ -1,38 +1,14 @@
 [
     {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
     },
     {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_menu.png",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
     },
     {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_menu.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_menu.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_menu.png",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_menu.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/ic_launcher.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ic_launcher.png"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4/icon_robotcontroller.png",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/icon_robotcontroller.png"
     }
 ]

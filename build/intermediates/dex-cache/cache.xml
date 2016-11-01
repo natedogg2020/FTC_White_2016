@@ -3,381 +3,129 @@
 
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Analytics-release_9cb2ae0007745e99110b13691229f15c747f40a1/classes.dex" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Analytics-release_598c74d95c4b2358c4878ae321a271d2024de822/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Analytics-release_a21019e84a394c763b938be04f917095a5a6feac/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5a051fb9930d4b0df111f4e71ba2c97136f8d1f7">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/support-annotations-23.4.0_c2cf638a5f40700b51e537e253375e12cb0c2089.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="84a174a0d6bebc32bf1e7cd4139224f0b05df829">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/d2xx_011c87b37e0f8ce5a05533f3a0563e7a9c6fcdbb.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2204deca0490727b9009dba5cdb2ec515cdbcc63">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-FtcCommon-release_7430e8884455258de0302b0b28e7af462bab6fdd/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d3fb718ef307cfff9ad988d06b98eadc292d1a34">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_171a27c722d03a8a7a542b35ed3256f1faad6e6e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d30a44d837c8f25360e4190341f43399eea81172">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Hardware-release_b3c2de0b6a93f28613dd87ac45da62d14ac19a84/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="eed0a0309ca5d75835822822645883051ecf77c0">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7b4cb328144c83d67c9a1a367ce4dff7d634d51c/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2204deca0490727b9009dba5cdb2ec515cdbcc63">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-FtcCommon-release_553b93c85c34a0e74a38e6aa7ac63535e0c19ec6.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f1dde8a0e6ed1172450c657386da45fd1d7565f4">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/Vuforia_1374368eb79c43075f911f5a98e660174fb24ea4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="2204deca0490727b9009dba5cdb2ec515cdbcc63">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-FtcCommon-release_ec9a217d4ab36b02b7b65ce4a91acb795ca717e3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="84a174a0d6bebc32bf1e7cd4139224f0b05df829">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/d2xx_a762623dde48d779edce2f8af7b3cfdebbb1b3e0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b3051d2a26a36e5b402fd8aa14ec8a4bea328974">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Inspection-release_98ad84b145daa8f560c04667aa1b3fd3c901319a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="5a051fb9930d4b0df111f4e71ba2c97136f8d1f7">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_0e78570ff3ae417d1bf93eedbc694d794bc19ac9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d3fb718ef307cfff9ad988d06b98eadc292d1a34">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_3a11e0e421b43e3869b028174fd3e09c0bec41bc/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="dc4ad03580e3f29564476f06b65f06d89704c0a9">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-RobotCore-release_6018ea723910fee873a6d640edb6e1b53f4aed59/classes.dex" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-RobotCore-release_6e97dcb91d0fdc6370e97ea2ae9db790c143fde5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f1dde8a0e6ed1172450c657386da45fd1d7565f4">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/Vuforia_0dbb60f02079e1f5f70db2c198e7d89a0cb70713/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d6d5474326a0afc47f4a74ef3edcda5913a9121f">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f11eb34d873229b12480969e82faf5ceafdac970/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="f1dde8a0e6ed1172450c657386da45fd1d7565f4">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/Vuforia_a705b1d5765cf040046176c0df7b922f9ab5e58e.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="80029b007ab510ac2385bdcdd94d2153f5dc895b">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ee0f6a9f244f8354038b00983c129afe3eb4df8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-ModernRobotics-release_20eeae5c796a1815e92bbb8100f3e3b726328740/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="a79d3473ecd29eeb213f787b2aed879dd48dce79">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a009a2d9f40127f45fca110337e3bd01bcc03c68/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="442e93c10918df3270cc37f9fcf9e90c43072eea">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Blocks-release_32e50335ef8d91391715c27d0ddc039898786f36.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="b3051d2a26a36e5b402fd8aa14ec8a4bea328974">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Inspection-release_94d28ab02decc91e02c3d2884c88d390df7a2374.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d3fb718ef307cfff9ad988d06b98eadc292d1a34">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/gson-2.7_27838ce3256b0318168b9fcc1464887caf6c17a5.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="442e93c10918df3270cc37f9fcf9e90c43072eea">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Blocks-release_f8a6b154c5a34b9f795ba8e239de6d5dd94a9955/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/support-annotations-23.4.0.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="5a051fb9930d4b0df111f4e71ba2c97136f8d1f7">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_19a6fe8dd1012561c2612f24b4bccaaa08a95010/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Analytics-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9dafed45e330aec14abcce05bdb7bbdb2a2d7092">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Analytics-release_211964cb9f37321cc2bcbe12fdde432555c13b61.jar" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_4023204b2ef8a83f768aa892ad9730146bfcad22/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dc4ad03580e3f29564476f06b65f06d89704c0a9">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-RobotCore-release_409ded46daa5252e72450097e54d323554c5a040/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Blocks-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="442e93c10918df3270cc37f9fcf9e90c43072eea">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Blocks-release_abe19e441b46c41c60f3645cae8486eb956f63d1/classes.dex" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Blocks-release_e160ed7c082a0cf1ed9f530057ef14483071bde6/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="84a174a0d6bebc32bf1e7cd4139224f0b05df829">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/d2xx_1cd629311d7e6e80263a34598b668de3564e5e1b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="d30a44d837c8f25360e4190341f43399eea81172">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Hardware-release_d15541cbb8986edbfb1a8a69532e5c195f4ed5de/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="01b187b6578f0667c5c8f8f5f2853926d7241de9">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/instant-run_8f39b688ee3d78326b842a5b4152937fc7cdeddd.jar" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Hardware-release_0962fa93d08a3cef20d7cca5a289d03c7309c707/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-WirelessP2p-release_2a76c6ace285b13a37e90ba90e21c4aa57a58f43/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="c77c6728195c1d1717c7beb4ec9cd6e896859014">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/instant-run-bootstrap_09d35083575063c5b0533baa4866e77ac6fc1d0f.jar" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Inspection-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="b3051d2a26a36e5b402fd8aa14ec8a4bea328974">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Inspection-release_7dcf27c0b5582a8ad2d2b07baafa985409ae8823/classes.dex" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="dc4ad03580e3f29564476f06b65f06d89704c0a9">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-RobotCore-release_b917d78b965eeaa36102578152cdb2e64cb13a5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-WirelessP2p-release_d7486ba04df067b0dedc5bcb6ad29e01ac4d81b1.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/Hardware-release/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="23.0.3"
-        sha1="d30a44d837c8f25360e4190341f43399eea81172">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-Hardware-release_8047b3035e8252876e1106bbde0634f98d60d2bb.jar" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-Inspection-release_f3d133f5dda756fb1f299a44fc0537f5f23b1ceb/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/d2xx.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="84a174a0d6bebc32bf1e7cd4139224f0b05df829">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/d2xx_adae21f084d2df0c415577643c2709879822654b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
-        <dex dex="/Users/226486/Desktop/ftc_app-master 3 copy/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-ModernRobotics-release_af1c0f128f74bdfd4131c204d5e0a455958967ef/classes.dex" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-ModernRobotics-release_89d50e14b0af7a30a99dfb7ce7613285b091c8c1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/WirelessP2p-release/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
         sha1="9403be210676ed196cdcc64c7391b9ae2361c174">
-        <dex dex="/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-WirelessP2p-release_3e30eb984877096e67f2d83c5429d2fefc7ebd79/classes.dex" />
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-WirelessP2p-release_07928e5f13832651f934188109d682fbd0d47f9c/classes.dex" />
     </item>
     <item
-        is-multidex="false"
-        jar="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/ModernRobotics-release/jars/classes.jar"
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="01999c87afe3d10ffa06f3efa66f39e61e6aba0c">
-        <dex dex="/Users/226486/Desktop/FTC_White_2016/TeamCode/build/intermediates/pre-dexed/debug/intermediates-exploded-aar-ModernRobotics-release_0440cfb53549cf3ecff55d238d6ef67ac93014f1.jar" />
+        sha1="e0a4abb4b243650e9f8e464a6bed5859a4348d91">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_031b68031b7fc50a1f260bbefaef6c596ba24028/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/Vuforia.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f1dde8a0e6ed1172450c657386da45fd1d7565f4">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/Vuforia_9dfbdca65116cebf4dc7d3b2e7da785677d82a7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/RobotCore-release/jars/libs/gson-2.7.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d3fb718ef307cfff9ad988d06b98eadc292d1a34">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.7_4c28e4d1ae5dc3604867a9abc1f3e50d498ff47c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2204deca0490727b9009dba5cdb2ec515cdbcc63">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/intermediates-exploded-aar-FtcCommon-release_250828acacedebdf8b3425310157bc5abd620de5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dc0fdb7195f64fca413b30c34b5266fe69950326">
+        <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a967ef19b7e1ff8aec3297acf7d48815b485d1f0/classes.dex" />
     </item>
 
 </items>

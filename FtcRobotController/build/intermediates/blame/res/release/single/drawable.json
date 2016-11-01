@@ -1,50 +1,18 @@
 [
     {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/drawable/black_border.xml"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_menu.png"
     },
     {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable/button_shape.xml"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable/button_shape.xml"
     },
     {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_menu.png"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/drawable/black_border.xml"
     },
     {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable/button_shape.xml"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/drawable/black_border.xml"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_robotcontroller.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/release/drawable/button_shape.xml",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/exploded-aar/FtcCommon-release/res/drawable/button_shape.xml"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_robotcontroller.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
-        "source": "/Users/226486/Desktop/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_menu.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/release/drawable/black_border.xml",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/exploded-aar/Blocks-release/res/drawable/black_border.xml"
-    },
-    {
-        "merged": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
-        "source": "/Users/226486/Desktop/FTC-White-code/ftc_app-master 3/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_robotcontroller.png"
-    },
-    {
-        "merged": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_menu.png",
-        "source": "/Users/226486/Desktop/ftc_app-master 3 copy/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_menu.png"
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/res/merged/release/drawable/icon_robotcontroller.png",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/FtcRobotController/build/intermediates/exploded-aar/Inspection-release/res/drawable/icon_robotcontroller.png"
     }
 ]

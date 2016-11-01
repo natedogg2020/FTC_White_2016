@@ -28,6 +28,10 @@ public class WhiteHardware
     public DcMotor  rearLeftMotor   = null;
     public DcMotor  rearRightMotor  = null;
 
+    public static final double MID_SERVO       =  0.5 ;
+    public static final double RIGHT_POWER    =  0.6 ;
+    public static final double LEFT_POWER  = -0.6 ;
+
 
     /* local OpMode members. */
     HardwareMap hwMap           =  null;

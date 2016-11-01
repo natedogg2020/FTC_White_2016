@@ -94,13 +94,13 @@ public class PushbotTeleopTank_Iterative extends OpMode {
      */
     @Override
     public void loop() {
-        double left;
-        double right;
 
+        double right;
+        //leftMotor -> "left_drive" in robot controller app -> motor controllers control actual left motor on robot
         // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
-        left = -gamepad1.left_stick_y;
+        //-1 to 1
         right = -gamepad1.right_stick_y;
-        robot.leftMotor.setPower(left);
+        robot.leftMotor.setPower(-gamepad1.left_stick_y);
         robot.rightMotor.setPower(right);
 
     /*
