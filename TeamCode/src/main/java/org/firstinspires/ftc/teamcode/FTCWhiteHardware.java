@@ -2,7 +2,6 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
-import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 /**
@@ -21,17 +20,14 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Servo channel:  Servo to open left claw:  "left_hand"
  * Servo channel:  Servo to open right claw: "right_hand"
  */
-public class WhiteTestHardware
+public class FTCWhiteHardware
 {
     /* Public OpMode members. */
     public DcMotor  frontLeftMotor   = null;
     public DcMotor  frontRightMotor  = null;
     public DcMotor  rearLeftMotor   = null;
     public DcMotor  rearRightMotor  = null;
-    public Servo leftClaw = null;
-    public Servo rightCLaw = null;
-
-
+    public DcMotor  liftMotor = null;
     public static final double MID_SERVO       =  0.5 ;
     public static final double RIGHT_POWER    =  0.6 ;
     public static final double LEFT_POWER  = -0.6 ;
@@ -42,24 +38,26 @@ public class WhiteTestHardware
     private ElapsedTime period  = new ElapsedTime();
 
     /* Constructor */
-    public WhiteTestHardware(){
+    public FTCWhiteHardware(){
 
     }
 
     /* Initialize standard Hardware interfaces */
-    public void init(HardwareMap bhwMap) {
+    public void init(HardwareMap ahwMap) {
         // Save reference to Hardware map
-        hwMap = bhwMap;
+        hwMap = ahwMap;
 
         // Define and Initialize Motors
         frontLeftMotor   = hwMap.dcMotor.get("left_drive");
         frontRightMotor  = hwMap.dcMotor.get("right_drive");
         rearLeftMotor   = hwMap.dcMotor.get("lleft_drive");
         rearRightMotor  = hwMap.dcMotor.get("rright_drive");
+        liftMotor  = hwMap.dcMotor.get("lift_drive");
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
         rearLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         rearRightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
+        liftMotor.setDirection(DcMotor.Direction.FORWARD);
         /*Old motor settings
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
@@ -71,6 +69,7 @@ public class WhiteTestHardware
         frontRightMotor.setPower(0);
         rearLeftMotor.setPower(0);
         rearRightMotor.setPower(0);
+        liftMotor.setPower(0);
 
 
         // Set all motors to run without encoders.
@@ -79,11 +78,7 @@ public class WhiteTestHardware
         frontRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearLeftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-        leftClaw = hwMap.servo.get("left_claw");
-        leftClaw.setPosition(MID_SERVO);
-        rightCLaw = hwMap.servo.get("right_claw");
-        rightCLaw.setPosition(MID_SERVO);
-
+        liftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
 
         // Define and initialize ALL installed servos.
 

@@ -88,7 +88,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="e0a4abb4b243650e9f8e464a6bed5859a4348d91">
+        sha1="44a7489c5b5cd15e034c3f4d38195cc241129e0d">
         <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_031b68031b7fc50a1f260bbefaef6c596ba24028/classes.dex" />
     </item>
     <item
@@ -124,7 +124,7 @@
         jumboMode="true"
         optimize="true"
         revision="23.0.3"
-        sha1="dc0fdb7195f64fca413b30c34b5266fe69950326">
+        sha1="bcbb895d33a7b19b366d4dd856c67711d00362c9">
         <dex dex="/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_a967ef19b7e1ff8aec3297acf7d48815b485d1f0/classes.dex" />
     </item>
 

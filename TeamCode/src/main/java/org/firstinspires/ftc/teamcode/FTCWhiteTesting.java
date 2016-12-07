@@ -27,7 +27,7 @@ import com.qualcomm.robotcore.util.Range;
 public class FTCWhiteTesting extends OpMode {
 
     /* Declare OpMode members. */
-    WhiteTestHardware robot = new WhiteTestHardware(); // use the class created to define a Pushbot's hardware
+    FTCWhiteTestHardware robot = new FTCWhiteTestHardware(); // use the class created to define a Pushbot's hardware
     // could also use HardwareFTCWhiteMatrix class.
     // sets rate to move servo
 
@@ -88,10 +88,12 @@ public class FTCWhiteTesting extends OpMode {
 
         clawOffset = Range.clip(clawOffset, -0.5, 0.5);
         if(gamepad1.a) {
-            robot.leftClaw.setPosition(robot.MID_SERVO + clawOffset);
+            robot.leftClaw.setPosition(robot.MID_SERVO + 1.5);
+            robot.rightCLaw.setPosition(robot.MID_SERVO - 1.5);
         }
         else if(gamepad1.b) {
-            robot.rightCLaw.setPosition(robot.MID_SERVO - clawOffset);
+            robot.leftClaw.setPosition(robot.MID_SERVO - 1.5);
+            robot.rightCLaw.setPosition(robot.MID_SERVO + 1.5);
         }
         
 

@@ -54,7 +54,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class FTCWhiteTeleopTank extends OpMode {
 
     /* Declare OpMode members. */
-    WhiteHardware robot = new WhiteHardware(); // use the class created to define a Pushbot's hardware
+    FTCWhiteHardware robot = new FTCWhiteHardware(); // use the class created to define a Pushbot's hardware
     // could also use HardwareFTCWhiteMatrix class.
     // sets rate to move servo
 

@@ -26,7 +26,7 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 public class FTCWhiteMecanumDrive extends OpMode {
 
     /* Declare OpMode members. */
-    WhiteHardware robot = new WhiteHardware(); // use the class created to define a Pushbot's hardware
+    FTCWhiteHardware robot = new FTCWhiteHardware(); // use the class created to define a Pushbot's hardware
     // could also use HardwareFTCWhiteMatrix class.
     // sets rate to move servo
 
@@ -73,7 +73,7 @@ public class FTCWhiteMecanumDrive extends OpMode {
         //Ch2 = Right joystick y- axis(unused)
         //Ch3 = Left joystick Y-axis
         //Ch4 = Left joystick X-axis
-        ch1 = (gamepad1.right_trigger - gamepad1.left_trigger);
+        ch1 = (gamepad1.right_stick_x);
         ch2 = -gamepad1.right_stick_y;
         ch3 = -gamepad1.left_stick_y;
         ch4 = -gamepad1.left_stick_x;
@@ -82,31 +82,13 @@ public class FTCWhiteMecanumDrive extends OpMode {
         robot.rearLeftMotor.setPower(ch3 + ch1 - ch4);
         robot.rearRightMotor.setPower(ch3 - ch1 - ch4);
         robot.frontRightMotor.setPower(ch3 - ch1 + ch4);
-
-
-       /* ch1 = gamepad1.right_stick_x;
-        ch2 = -gamepad1.right_stick_y;
-        ch3 = -gamepad1.left_stick_y;
-        ch4 = gamepad1.left_stick_x;
-        robot.frontLeftMotor.setPower(ch4);
-        robot.rearLeftMotor.setPower(ch4);
-        robot.frontRightMotor.setPower(ch4);
-        robot.rearRightMotor.setPower(ch4);
-        telemetry.addData("ch4value", ch4);
-        */
-
-        /*
-        Old Code -- Need to hang on to just in case ;)
-        double left;
-        double right;
-
-        // Run wheels in tank mode (note: The joystick goes negative when pushed forwards, so negate it)
-        left = -gamepad1.left_stick_y;
-        right = -gamepad1.right_stick_y;
-        robot.leftMotor.setPower(left);
-        robot.rightMotor.setPower(right);
-        robot.lleftMotor.setPower(left);
-        robot.rrightMotor.setPower(right);*/
+        while(gamepad1.a){
+            robot.liftMotor.setPower(-1);
+        }
+        while(gamepad1.b){
+            robot.liftMotor.setPower(1);
+        }
+        robot.liftMotor.setPower(0);
 
     /*
      * Code to run ONCE after the driver hits STOP

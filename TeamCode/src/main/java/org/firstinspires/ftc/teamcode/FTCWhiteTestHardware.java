@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 /**
@@ -20,13 +21,16 @@ import com.qualcomm.robotcore.util.ElapsedTime;
  * Servo channel:  Servo to open left claw:  "left_hand"
  * Servo channel:  Servo to open right claw: "right_hand"
  */
-public class WhiteHardware
+public class FTCWhiteTestHardware
 {
     /* Public OpMode members. */
     public DcMotor  frontLeftMotor   = null;
     public DcMotor  frontRightMotor  = null;
     public DcMotor  rearLeftMotor   = null;
     public DcMotor  rearRightMotor  = null;
+    public Servo leftClaw = null;
+    public Servo rightCLaw = null;
+
 
     public static final double MID_SERVO       =  0.5 ;
     public static final double RIGHT_POWER    =  0.6 ;
@@ -38,14 +42,14 @@ public class WhiteHardware
     private ElapsedTime period  = new ElapsedTime();
 
     /* Constructor */
-    public WhiteHardware(){
+    public FTCWhiteTestHardware(){
 
     }
 
     /* Initialize standard Hardware interfaces */
-    public void init(HardwareMap ahwMap) {
+    public void init(HardwareMap bhwMap) {
         // Save reference to Hardware map
-        hwMap = ahwMap;
+        hwMap = bhwMap;
 
         // Define and Initialize Motors
         frontLeftMotor   = hwMap.dcMotor.get("left_drive");
@@ -75,6 +79,10 @@ public class WhiteHardware
         frontRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearLeftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+        leftClaw = hwMap.servo.get("left_claw");
+        leftClaw.setPosition(MID_SERVO);
+        rightCLaw = hwMap.servo.get("right_claw");
+        rightCLaw.setPosition(MID_SERVO);
 
 
         // Define and initialize ALL installed servos.
