@@ -73,7 +73,7 @@ public class FTCWhiteMecanumDrive extends OpMode {
         //Ch2 = Right joystick y- axis(unused)
         //Ch3 = Left joystick Y-axis
         //Ch4 = Left joystick X-axis
-        ch1 = (gamepad1.right_stick_x);
+        ch1 = -gamepad1.right_stick_x;
         ch2 = -gamepad1.right_stick_y;
         ch3 = -gamepad1.left_stick_y;
         ch4 = -gamepad1.left_stick_x;
@@ -82,15 +82,21 @@ public class FTCWhiteMecanumDrive extends OpMode {
         robot.rearLeftMotor.setPower(ch3 + ch1 - ch4);
         robot.rearRightMotor.setPower(ch3 - ch1 - ch4);
         robot.frontRightMotor.setPower(ch3 - ch1 + ch4);
-        while(gamepad1.a){
-            robot.liftMotor.setPower(-1);
-        }
-        while(gamepad1.b){
-            robot.liftMotor.setPower(1);
-        }
-        robot.liftMotor.setPower(0);
+        robot.liftMotor.setPower(gamepad2.left_trigger - gamepad2.right_trigger);
 
-    /*
+        if(gamepad2.right_bumper) {
+            robot.leftClaw.setPosition(robot.MID_SERVO + 1);
+            robot.rightCLaw.setPosition(robot.MID_SERVO - 1);
+        }
+        else if(gamepad2.left_bumper) {
+            robot.leftClaw.setPosition(robot.MID_SERVO - 1);
+            robot.rightCLaw.setPosition(robot.MID_SERVO + 1);
+        }
+
+
+
+        /*
+
      * Code to run ONCE after the driver hits STOP
      */
     }

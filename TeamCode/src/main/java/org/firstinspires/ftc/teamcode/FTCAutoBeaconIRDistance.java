@@ -112,8 +112,8 @@ public class FTCAutoBeaconIRDistance extends LinearOpMode {
         }
 
         // Start the robot moving forward, and then begin looking for a white line.
-        robot.frontLeftMotor.setPower(-.5);
-        robot.rearLeftMotor.setPower(-.5);
+        robot.frontLeftMotor.setPower(-1);
+        robot.rearLeftMotor.setPower(-1);
         robot.rearRightMotor.setPower(-.5);
         robot.frontRightMotor.setPower(-.5);
 

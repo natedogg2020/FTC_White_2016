@@ -2,6 +2,7 @@ package org.firstinspires.ftc.teamcode;
 
 import com.qualcomm.robotcore.hardware.DcMotor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
+import com.qualcomm.robotcore.hardware.Servo;
 import com.qualcomm.robotcore.util.ElapsedTime;
 
 /**
@@ -28,7 +29,10 @@ public class FTCWhiteHardware
     public DcMotor  rearLeftMotor   = null;
     public DcMotor  rearRightMotor  = null;
     public DcMotor  liftMotor = null;
-    public static final double MID_SERVO       =  0.5 ;
+    public DcMotor  testMotor = null;
+    public Servo leftClaw = null;
+    public Servo rightCLaw = null;
+    public static final double MID_SERVO       =  0.0 ;
     public static final double RIGHT_POWER    =  0.6 ;
     public static final double LEFT_POWER  = -0.6 ;
 
@@ -53,11 +57,18 @@ public class FTCWhiteHardware
         rearLeftMotor   = hwMap.dcMotor.get("lleft_drive");
         rearRightMotor  = hwMap.dcMotor.get("rright_drive");
         liftMotor  = hwMap.dcMotor.get("lift_drive");
+        testMotor  = hwMap.dcMotor.get("test_drive");
+        leftClaw = hwMap.servo.get("left_claw");
+        leftClaw.setPosition(1);
+        rightCLaw = hwMap.servo.get("right_claw");
+        rightCLaw.setPosition(0);
+
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
         rearLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         rearRightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
         liftMotor.setDirection(DcMotor.Direction.FORWARD);
+        testMotor.setDirection(DcMotor.Direction.FORWARD);
         /*Old motor settings
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
@@ -70,6 +81,7 @@ public class FTCWhiteHardware
         rearLeftMotor.setPower(0);
         rearRightMotor.setPower(0);
         liftMotor.setPower(0);
+        testMotor.setPower(0);
 
 
         // Set all motors to run without encoders.
@@ -79,7 +91,7 @@ public class FTCWhiteHardware
         rearLeftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         liftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
-
+        testMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         // Define and initialize ALL installed servos.
 
     }

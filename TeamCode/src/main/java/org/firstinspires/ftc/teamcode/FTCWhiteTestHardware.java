@@ -28,6 +28,7 @@ public class FTCWhiteTestHardware
     public DcMotor  frontRightMotor  = null;
     public DcMotor  rearLeftMotor   = null;
     public DcMotor  rearRightMotor  = null;
+    public DcMotor liftMotor = null;
     public Servo leftClaw = null;
     public Servo rightCLaw = null;
 
@@ -56,10 +57,12 @@ public class FTCWhiteTestHardware
         frontRightMotor  = hwMap.dcMotor.get("right_drive");
         rearLeftMotor   = hwMap.dcMotor.get("lleft_drive");
         rearRightMotor  = hwMap.dcMotor.get("rright_drive");
+        liftMotor  = hwMap.dcMotor.get("lift_drive");
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
         rearLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
-        rearRightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
+        rearRightMotor.setDirection(DcMotor.Direction.REVERSE);
+        liftMotor.setDirection(DcMotor.Direction.FORWARD);// Set to FORWARD if using AndyMark motors
         /*Old motor settings
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
@@ -71,6 +74,7 @@ public class FTCWhiteTestHardware
         frontRightMotor.setPower(0);
         rearLeftMotor.setPower(0);
         rearRightMotor.setPower(0);
+        liftMotor.setPower(0);
 
 
         // Set all motors to run without encoders.
@@ -79,6 +83,7 @@ public class FTCWhiteTestHardware
         frontRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearLeftMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
         rearRightMotor.setMode(DcMotor.RunMode.RUN_WITHOUT_ENCODER);
+        liftMotor.setMode(DcMotor.RunMode.RUN_USING_ENCODER);
         leftClaw = hwMap.servo.get("left_claw");
         leftClaw.setPosition(MID_SERVO);
         rightCLaw = hwMap.servo.get("right_claw");
