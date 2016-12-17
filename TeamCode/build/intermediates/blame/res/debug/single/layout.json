@@ -132,12 +132,12 @@
         "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/template_info.xml"
     },
     {
-        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/res/merged/debug/layout/matrix_devices.xml",
-        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
-    },
-    {
         "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/res/merged/debug/layout/activity_load.xml",
         "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/activity_load.xml"
+    },
+    {
+        "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/res/merged/debug/layout/matrix_devices.xml",
+        "source": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/exploded-aar/FtcCommon-release/res/layout/matrix_devices.xml"
     },
     {
         "merged": "/Users/226486/Desktop/FTC Stuff/FTC_White_2016/TeamCode/build/intermediates/res/merged/debug/layout/servo_controller_banner.xml",

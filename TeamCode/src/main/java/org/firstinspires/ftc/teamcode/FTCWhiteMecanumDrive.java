@@ -1,7 +1,7 @@
 package org.firstinspires.ftc.teamcode;
 
 /**
- * Created by natenckelvey on 10/14/16.
+ * Created by natemckelvey on 10/14/16.
  */
 
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
@@ -68,12 +68,20 @@ public class FTCWhiteMecanumDrive extends OpMode {
         double ch2;
         double ch3;
         double ch4;
+        double encoderLim;
+        double encoderVal;
+        /*
+        <<<<MOTORS>>>>
+        */
+        encoderLim = -6000.00;
+        encoderVal = robot.liftMotor.getCurrentPosition();
+        telemetry.addData("DANK MEMES", encoderVal);
 
         //Ch1 = Right joystick X-axis
         //Ch2 = Right joystick y- axis(unused)
         //Ch3 = Left joystick Y-axis
         //Ch4 = Left joystick X-axis
-        ch1 = -gamepad1.right_stick_x;
+        ch1 = gamepad1.right_stick_x;
         ch2 = -gamepad1.right_stick_y;
         ch3 = -gamepad1.left_stick_y;
         ch4 = -gamepad1.left_stick_x;
@@ -82,18 +90,34 @@ public class FTCWhiteMecanumDrive extends OpMode {
         robot.rearLeftMotor.setPower(ch3 + ch1 - ch4);
         robot.rearRightMotor.setPower(ch3 - ch1 - ch4);
         robot.frontRightMotor.setPower(ch3 - ch1 + ch4);
-        robot.liftMotor.setPower(gamepad2.left_trigger - gamepad2.right_trigger);
-
-        if(gamepad2.right_bumper) {
-            robot.leftClaw.setPosition(robot.MID_SERVO + 1);
-            robot.rightCLaw.setPosition(robot.MID_SERVO - 1);
+        //robot.liftMotor.setPower(gamepad2.left_trigger - gamepad2.right_trigger);
+        if(encoderVal >= encoderLim && gamepad2.right_trigger > 0){
+            robot.liftMotor.setPower(-gamepad2.right_trigger);
+        } else if (gamepad2.left_trigger > 0) {
+            robot.liftMotor.setPower(gamepad2.left_trigger);
+        } else {
+            robot.liftMotor.setPower(0);
         }
-        else if(gamepad2.left_bumper) {
+        /*
+        <<<SERVOS>>>
+        */
+        if (gamepad2.y) {
             robot.leftClaw.setPosition(robot.MID_SERVO - 1);
+        } else if (gamepad2.a) {
+            robot.leftClaw.setPosition(robot.MID_SERVO + 1);
+        } else if (gamepad2.dpad_up) {
             robot.rightCLaw.setPosition(robot.MID_SERVO + 1);
+        } else if (gamepad2.dpad_down) {
+            robot.rightCLaw.setPosition(robot.MID_SERVO - 1);
+        } else if (gamepad2.right_bumper) {
+            robot.rightBeaconClaw.setPosition(robot.MID_SERVO + .6);
+        } else if (gamepad2.b) {
+            robot.rightBeaconClaw.setPosition(robot.MID_SERVO - .6);
+        } else if (gamepad2.left_bumper) {
+            robot.leftBeaconClaw.setPosition(robot.MID_SERVO - .6);
+        } else if (gamepad2.dpad_left) {
+            robot.leftBeaconClaw.setPosition(robot.MID_SERVO + .6);
         }
-
-
 
         /*
 

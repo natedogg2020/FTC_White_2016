@@ -32,6 +32,8 @@ public class FTCWhiteHardware
     public DcMotor  testMotor = null;
     public Servo leftClaw = null;
     public Servo rightCLaw = null;
+    public Servo rightBeaconClaw = null;
+    public Servo leftBeaconClaw = null;
     public static final double MID_SERVO       =  0.0 ;
     public static final double RIGHT_POWER    =  0.6 ;
     public static final double LEFT_POWER  = -0.6 ;
@@ -62,13 +64,17 @@ public class FTCWhiteHardware
         leftClaw.setPosition(1);
         rightCLaw = hwMap.servo.get("right_claw");
         rightCLaw.setPosition(0);
-
+        rightBeaconClaw = hwMap.servo.get("right_bc");
+        rightBeaconClaw.setPosition(0);
+        leftBeaconClaw = hwMap.servo.get("left_bc");
+        leftBeaconClaw .setPosition(.6);
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);
         rearLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         rearRightMotor.setDirection(DcMotor.Direction.REVERSE);// Set to FORWARD if using AndyMark motors
         liftMotor.setDirection(DcMotor.Direction.FORWARD);
         testMotor.setDirection(DcMotor.Direction.FORWARD);
+        liftMotor.setMode(DcMotor.RunMode.STOP_AND_RESET_ENCODER);
         /*Old motor settings
         frontLeftMotor.setDirection(DcMotor.Direction.FORWARD); // Set to REVERSE if using AndyMark motors
         frontRightMotor.setDirection(DcMotor.Direction.REVERSE);

@@ -7,7 +7,6 @@ package org.firstinspires.ftc.teamcode;
 import com.qualcomm.robotcore.eventloop.opmode.OpMode;
 import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 import com.qualcomm.robotcore.hardware.DcMotor;
-import com.qualcomm.robotcore.util.Range;
 
 /**
  * This file provides basic Telop driving for a Pushbot robot.
@@ -28,10 +27,14 @@ import com.qualcomm.robotcore.util.Range;
 public class FTCWhiteTesting extends OpMode {
 
     /* Declare OpMode members. */
-    FTCWhiteTestHardware robot = new FTCWhiteTestHardware(); // use the class created to define a Pushbot's hardware
+    FTCWhiteHardware robot = new FTCWhiteHardware(); // use the class created to define a Pushbot's hardware
     // could also use HardwareFTCWhiteMatrix class.
     // sets rate to move servo
-
+    static final double     COUNTS_PER_MOTOR_REV    = 1440 ;    // eg: TETRIX Motor Encoder
+    static final double     DRIVE_GEAR_REDUCTION    = 1.5 ;     // This is < 1.0 if geared UP
+    static final double     WHEEL_DIAMETER_INCHES   = 1.5 ;     // For figuring circumference
+    static final double     COUNTS_PER_INCH         = (COUNTS_PER_MOTOR_REV * DRIVE_GEAR_REDUCTION) /
+            (WHEEL_DIAMETER_INCHES * 3.1415);
 
     /*
      * Code to run ONCE when the driver hits INIT
@@ -53,13 +56,19 @@ public class FTCWhiteTesting extends OpMode {
         // Send telemetry message to indicate successful Encoder reset
         telemetry.addData("Path0",  "Starting at %7d :%7d");
         telemetry.update();
+
     }
 
     /*
      * Code to run REPEATEDLY after the driver hits INIT, but before they hit PLAY
      */
+
+    /*
+     * Code to run REPEATEDLY after the driver hits PLAY but before they hit STOP
+     */
     @Override
     public void init_loop() {
+
     }
 
     /*
@@ -78,14 +87,20 @@ public class FTCWhiteTesting extends OpMode {
         double ch2;
         double ch3;
         double ch4;
-        double          clawOffset      = 0;                       // Servo mid position
-        final double    CLAW_SPEED      = 0.02 ;
+        double encoderLim;
+        double encoderVal;
+        /*
+        <<<<MOTORS>>>>
+        */
+        encoderLim = -6000.00;
+        encoderVal = robot.liftMotor.getCurrentPosition();
+        telemetry.addData("DANK MEMES", encoderVal);
 
         //Ch1 = Right joystick X-axis
         //Ch2 = Right joystick y- axis(unused)
         //Ch3 = Left joystick Y-axis
         //Ch4 = Left joystick X-axis
-        ch1 = -gamepad1.right_stick_x;
+        ch1 = gamepad1.right_stick_x;
         ch2 = -gamepad1.right_stick_y;
         ch3 = -gamepad1.left_stick_y;
         ch4 = -gamepad1.left_stick_x;
@@ -94,16 +109,34 @@ public class FTCWhiteTesting extends OpMode {
         robot.rearLeftMotor.setPower(ch3 + ch1 - ch4);
         robot.rearRightMotor.setPower(ch3 - ch1 - ch4);
         robot.frontRightMotor.setPower(ch3 - ch1 + ch4);
-        clawOffset = Range.clip(clawOffset, -0.5, 0.5);
-        if(gamepad2.a) {
-            robot.leftClaw.setPosition(robot.MID_SERVO + 1.5);
-            robot.rightCLaw.setPosition(robot.MID_SERVO - 1.5);
+        //robot.liftMotor.setPower(gamepad2.left_trigger - gamepad2.right_trigger);
+        if(encoderVal >= encoderLim && gamepad2.right_trigger > 0){
+            robot.liftMotor.setPower(-gamepad2.right_trigger);
+        } else if (gamepad2.left_trigger > 0) {
+            robot.liftMotor.setPower(gamepad2.left_trigger);
+        } else {
+            robot.liftMotor.setPower(0);
         }
-        else if(gamepad2.b) {
-            robot.leftClaw.setPosition(robot.MID_SERVO - 1.5);
-            robot.rightCLaw.setPosition(robot.MID_SERVO + 1.5);
+        /*
+        <<<SERVOS>>>
+        */
+        if (gamepad2.y) {
+            robot.leftClaw.setPosition(robot.MID_SERVO - 1);
+        } else if (gamepad2.a) {
+            robot.leftClaw.setPosition(robot.MID_SERVO + 1);
+        } else if (gamepad2.dpad_up) {
+            robot.rightCLaw.setPosition(robot.MID_SERVO + 1);
+        } else if (gamepad2.dpad_down) {
+            robot.rightCLaw.setPosition(robot.MID_SERVO - 1);
+        } else if (gamepad2.right_bumper) {
+            robot.rightBeaconClaw.setPosition(robot.MID_SERVO + .6);
+        } else if (gamepad2.b) {
+            robot.rightBeaconClaw.setPosition(robot.MID_SERVO - .6);
+        } else if (gamepad2.left_bumper) {
+            robot.leftBeaconClaw.setPosition(robot.MID_SERVO - .6);
+        } else if (gamepad2.dpad_left) {
+            robot.leftBeaconClaw.setPosition(robot.MID_SERVO + .6);
         }
-
 
     }
 }
